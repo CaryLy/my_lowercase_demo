@@ -1,0 +1,9 @@
+var myfile = process.argv.slice(2);
+
+var path = require('path');
+var fs = require('fs');
+var dir = path.dirname(fs.realpathSync(__filename))+"/../";
+require(dir+'lowercase.js').lowerCase(dir+myfile);
+
+
+//testcode:node bin/lowercase test/data/sample.txt
