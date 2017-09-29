@@ -1,4 +1,4 @@
-lowercase
+#my_lowercase_demo
 ========================
 
 A demo package of lowercase
